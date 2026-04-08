@@ -32,9 +32,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-xl brand-gradient-bg flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-              <span className="text-white font-extrabold text-sm">1C</span>
-            </div>
+            <img
+              src="/logo.jpeg"
+              alt="One Click Logo"
+              className="w-9 h-9 rounded-xl object-contain group-hover:scale-105 transition-transform"
+            />
             <span className={`font-bold text-lg tracking-tight hidden sm:block ${
               scrolled || !isHome ? 'text-text-dark' : 'text-white'
             }`}>

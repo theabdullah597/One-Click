@@ -10,9 +10,11 @@ export default function Footer() {
           {/* Column 1: Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-10 h-10 rounded-xl brand-gradient-bg flex items-center justify-center">
-                <span className="text-white font-extrabold text-base">1C</span>
-              </div>
+              <img
+                src="/logo.jpeg"
+                alt="One Click Logo"
+                className="w-10 h-10 rounded-xl object-contain"
+              />
               <span className="text-white font-bold text-xl">One Click</span>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
