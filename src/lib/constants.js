@@ -40,10 +40,11 @@ export const FOOTER_TRAVEL_LINKS = [
 ];
 
 export const FOOTER_COMPANY_LINKS = [
-  { label: 'About', path: '/about' },
+  { label: 'About Us', path: '/about' },
   { label: 'Contact', path: '/contact' },
-  { label: 'Terms', path: '/terms' },
-  { label: 'Privacy', path: '/privacy' },
+  { label: 'Terms & Conditions', path: '/terms' },
+  { label: 'Privacy Policy', path: '/privacy' },
+  { label: 'Cookie Policy', path: '/privacy' },
 ];
 
 export const PARTNERS = ['Booking.com', 'Kiwi.com', 'Viator', 'GetYourGuide', 'Agoda'];
