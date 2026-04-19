@@ -45,6 +45,7 @@ export const FOOTER_COMPANY_LINKS = [
   { label: 'Terms & Conditions', path: '/terms' },
   { label: 'Privacy Policy', path: '/privacy' },
   { label: 'Cookie Policy', path: '/privacy' },
+  { label: 'Account Deletion', path: '/account-deletion' },
 ];
 
 export const PARTNERS = ['Booking.com', 'Kiwi.com', 'Viator', 'GetYourGuide', 'Agoda'];

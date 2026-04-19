@@ -1,19 +1,20 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/layout/Layout';
-import HomePage from './pages/HomePage';
-import FlightsPage from './pages/FlightsPage';
-import HotelsPage from './pages/HotelsPage';
-import CarsPage from './pages/CarsPage';
-import ToursPage from './pages/ToursPage';
-import DealsPage from './pages/DealsPage';
-import BlogPage from './pages/BlogPage';
-import BlogPostPage from './pages/BlogPostPage';
-import DestinationPage from './pages/DestinationPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import TermsPage from './pages/TermsPage';
-import PrivacyPage from './pages/PrivacyPage';
-import AppDownloadPage from './pages/AppDownloadPage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/layout/Layout";
+import HomePage from "./pages/HomePage";
+import FlightsPage from "./pages/FlightsPage";
+import HotelsPage from "./pages/HotelsPage";
+import CarsPage from "./pages/CarsPage";
+import ToursPage from "./pages/ToursPage";
+import DealsPage from "./pages/DealsPage";
+import BlogPage from "./pages/BlogPage";
+import BlogPostPage from "./pages/BlogPostPage";
+import DestinationPage from "./pages/DestinationPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import TermsPage from "./pages/TermsPage";
+import PrivacyPage from "./pages/PrivacyPage";
+import AppDownloadPage from "./pages/AppDownloadPage";
+import AccountDeletionPage from "./pages/AccountDeletionPage";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/account-deletion" element={<AccountDeletionPage />} />
           <Route path="/app-download" element={<AppDownloadPage />} />
         </Route>
       </Routes>
